@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Benstuff</title>
+</head>
+<body>
+
+<!-- Header -->
+<header class="absolute top-0 left-0 right-0 mx-auto w-[100%] bg-transperent-shadow-md rounded-lg p-3">
+    <nav class="flex items-center justify-center">
+        <!-- Logo with Grayscale -->
+        <img src="image/logo.png" class="w-32 cursor-pointer" alt="Logo">
+
+        <!-- Navigation Menu -->
+        <ul class="flex-1 text-center hidden md:flex">
+            <li class="list-none inline-block px-4">
+                <a href="#" class="no-underline text-white hover:text-gray-500 px-2">Home</a>
+            </li>
+            <li class="list-none inline-block px-4">
+                <a href="#" class="no-underline text-white hover:text-gray-500 px-2">About</a>
+            </li>
+            <li class="list-none inline-block px-4">
+                <a href="#" class="no-underline text-white hover:text-gray-500 px-2">Features</a>
+            </li>
+            <li class="list-none inline-block px-4">
+                <a href="#" class="no-underline text-white hover:text-gray-500 px-2">Contact</a>
+            </li>
+        </ul>
+
+        <!-- Bag Icon with Grayscale -->
+        <img src="image/bag.png" class="w-12 cursor-pointer" alt="Bag Icon">
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<div class="min-h-screen bg-[url('image/background.png')] bg-center bg-cover px-8 md:px-28 py-5 flex items-center justify-center">
+    <div class="flex flex-col items-center justify-center text-center mt-20">
+        <h1 class="text-5xl font-bold text-white mb-4">Welcome to Benstuff</h1>
+        <p class="text-xl text-white mb-8">Your one-stop destination for amazing stuff!</p>
+        <a href="#" class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition duration-300">Explore Now</a>
+    </div>
+</div>
+
+</body>
+</html>
